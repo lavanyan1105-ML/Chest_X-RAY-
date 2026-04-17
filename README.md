@@ -39,24 +39,15 @@ The goal is to compare traditional ML models with deep learning and boosting tec
   * Validation Set
   * Test Set
 
+<img width="806" height="609" alt="image" src="https://github.com/user-attachments/assets/21560e29-417d-4fe3-8ce9-b309994a64a4" />
 
----
-
-## ⚙️ Technologies Used
-
-* Python
-* NumPy, Pandas
-* Matplotlib, Seaborn
-* Scikit-learn
-* TensorFlow / Keras
-* XGBoost
-* OpenCV
-
----
+<img width="726" height="490" alt="image" src="https://github.com/user-attachments/assets/e542ad77-9dda-4e24-bd2d-51a485445cc7" />
+<img width="721" height="237" alt="image" src="https://github.com/user-attachments/assets/73f937f8-38c1-4ac5-9ae8-e11641d79ba6" />
 
 ## 🧠 Models Implemented
 
 ### 🔹 1. Support Vector Machine (SVM)
+<img width="670" height="698" alt="image" src="https://github.com/user-attachments/assets/527ea8ef-2168-4ca3-88a2-465a1f9e5eec" />
 
 * Kernel: Linear
 * Feature Extraction:
@@ -67,9 +58,11 @@ The goal is to compare traditional ML models with deep learning and boosting tec
 
   * Scaling → PCA → SVM
 
----
+---<img width="738" height="708" alt="image" src="https://github.com/user-attachments/assets/6937ce64-4e44-4827-ad51-d468d2cd206b" />
+
 
 ### 🔹 2. Convolutional Neural Network (CNN)
+<img width="771" height="334" alt="image" src="https://github.com/user-attachments/assets/e2f9044a-6583-497c-a468-fb4ec02d957d" />
 
 * Custom deep CNN architecture
 * Layers:
@@ -83,7 +76,8 @@ The goal is to compare traditional ML models with deep learning and boosting tec
   * ModelCheckpoint
   * ReduceLROnPlateau
 
----
+<img width="712" height="616" alt="image" src="https://github.com/user-attachments/assets/880dafb0-81a4-4e27-b21b-77205e2ce40b" />
+
 
 ### 🔹 3. Transfer Learning
 
@@ -152,26 +146,6 @@ Models were trained using:
 | VGG16 + XGBoost   | ~0.76    | ~0.84    | High        | Moderate    |
 | Raw XGBoost       | ~0.73    | ~0.82    | High        | Low         |
 
----
-
-## 🏆 Best Model
-
-👉 **Custom CNN / Transfer Learning model** performed best overall due to:
-
-* Ability to capture spatial features
-* Better generalization on image data
-
----
-
-## 📊 Visualizations Included
-
-* Class distribution histogram
-* Training curves (loss & accuracy)
-* Confusion matrices
-* Accuracy vs Training Size plots
-* Model comparison charts
-
----
 
 ## 📁 Project Structure
 
@@ -196,13 +170,3 @@ Models were trained using:
 
 ---
 
-## 📌 Key Learnings
-
-* Deep learning models outperform traditional ML for image tasks
-* Transfer learning reduces training time and improves accuracy
-* More data → better performance (especially for CNNs)
-* Feature extraction is critical for SVM/XGBoost
-
----
-
----
