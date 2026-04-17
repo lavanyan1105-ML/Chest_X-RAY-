@@ -83,6 +83,8 @@ The goal is to compare traditional ML models with deep learning and boosting tec
 
 * Pretrained models:
 
+<img width="774" height="698" alt="image" src="https://github.com/user-attachments/assets/37c57b9c-d787-4064-a34b-4ce0440da594" />
+
   * VGG16 / MobileNetV2
 * Frozen base layers
 * Custom classification head added
@@ -90,6 +92,7 @@ The goal is to compare traditional ML models with deep learning and boosting tec
 ---
 
 ### 🔹 4. XGBoost Approaches
+<img width="776" height="709" alt="image" src="https://github.com/user-attachments/assets/febc33a5-df9d-4632-8d91-79818e3d17de" />
 
 * Raw XGBoost (flattened features)
 * PCA + XGBoost
@@ -99,6 +102,10 @@ The goal is to compare traditional ML models with deep learning and boosting tec
 
 ## 📊 Evaluation Metrics
 
+<img width="744" height="381" alt="image" src="https://github.com/user-attachments/assets/afc4be00-10ee-4e49-98aa-31b4cf51cc9f" />
+
+<img width="797" height="429" alt="image" src="https://github.com/user-attachments/assets/f0c6b9ab-912a-4849-a7ff-41cf52cec365" />
+
 All models are evaluated using:
 
 * **Accuracy**
@@ -106,16 +113,9 @@ All models are evaluated using:
 * **Recall (Sensitivity)**
 * **Specificity**
 * **F1-score**
+<img width="787" height="463" alt="image" src="https://github.com/user-attachments/assets/52a0551d-4d91-47c3-bf26-d7ed3d49b1b1" />
 
-Specificity is calculated using confusion matrix:
 
-```
-Specificity = TN / (TN + FP)
-```
-
----
-
-## 📈 Experiments
 
 ### 🔸 Training Size Analysis
 
@@ -126,14 +126,6 @@ Models were trained using:
 * 60% of data
 * 80% of data
 
-### 🔸 Observations
-
-* CNN performance improves significantly with more data
-* SVM shows limited improvement
-* XGBoost performs moderately but improves with feature engineering
-* Transfer learning provides strong performance even with smaller data
-
----
 
 ## 📉 Results Summary
 
