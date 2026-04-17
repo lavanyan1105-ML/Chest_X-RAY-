@@ -39,7 +39,6 @@ The goal is to compare traditional ML models with deep learning and boosting tec
   * Validation Set
   * Test Set
 
-> ⚠️ Note: The test dataset is kept constant across all experiments and never used for training.
 
 ---
 
@@ -197,22 +196,6 @@ Models were trained using:
 
 ---
 
-## 🚀 How to Run
-
-### ▶️ Google Colab
-
-1. Upload dataset to Colab
-2. Open notebook
-3. Run all cells sequentially
-
-### ▶️ Local Setup
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn tensorflow xgboost opencv-python
-```
-
----
-
 ## 📌 Key Learnings
 
 * Deep learning models outperform traditional ML for image tasks
@@ -221,29 +204,5 @@ pip install numpy pandas matplotlib seaborn scikit-learn tensorflow xgboost open
 * Feature extraction is critical for SVM/XGBoost
 
 ---
-
-## 🔮 Future Improvements
-
-* Hyperparameter tuning
-* Use advanced architectures (ResNet, EfficientNet)
-* Handle class imbalance
-* Deploy model using Flask/Streamlit
-
----
-
-## 🙌 Acknowledgements
-
-* Kaggle Chest X-ray Dataset
-* TensorFlow & Scikit-learn documentation
-* XGBoost community
-
----
-
-## 📬 Contact
-
-For queries or collaboration:
-
-* GitHub: *your-username*
-* Email: *your-email*
 
 ---
